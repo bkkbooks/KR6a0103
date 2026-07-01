@@ -1,0 +1,48 @@
+canonical_identifier: bkk:krp/KR6a0103/v1
+canonical_location: https://kanripo.org/bkk/KR6a0103/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 佛說聖法印經
+  identifiers:
+    alt_id:
+    - T02n0103
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T02/T02n0103.xml
+    old_id: T02n0103
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0103_000.yaml, hash: 'sha256:0a854bc124acb02a5dc7ad98fe7492bf5faeea3b68f98b1f9638d22eacc937b2'}
+  - {seq: 1, filename: KR6a0103_001.yaml, hash: 'sha256:2276d680a2204ed8d36558112f9b5e5818a7da1b6d415366a5f9464f517a81dc'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6a0103_001.markers.yaml, hash: 'sha256:b2c26d9e234de75e07bd9dfd1a4f4f9a2b578c735a64e5c51dbe233f7bf5eeb7'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0103_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 583
+  label: 佛說聖法印經天竺名阿遮曇摩文圖
+  type: juan
+  level: 1
+hash: sha256:d2e91b3989abb1a888dbcf65bd34fc86e05e1b3b2ce2f79ac916ee1ae1327e6e
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

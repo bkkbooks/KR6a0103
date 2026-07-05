@@ -28,9 +28,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0103_000.yaml, hash: 'sha256:0a854bc124acb02a5dc7ad98fe7492bf5faeea3b68f98b1f9638d22eacc937b2'}
-  - {seq: 1, filename: KR6a0103_001.yaml, hash: 'sha256:2276d680a2204ed8d36558112f9b5e5818a7da1b6d415366a5f9464f517a81dc'}
+  - {seq: 1, filename: KR6a0103_001.yaml, hash: 'sha256:02da91b00023e87535eb378d04d9e4761baeb257e369456669559c9f15778cec'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6a0103_001.markers.yaml, hash: 'sha256:b2c26d9e234de75e07bd9dfd1a4f4f9a2b578c735a64e5c51dbe233f7bf5eeb7'}
+  - {seq: 0, role: markers, filename: assets/KR6a0103_000.markers.yaml, hash: 'sha256:2f3eb69d41c91cd9b264d4f71ff28624e52d287c0f41f3705d49e26ef3c2dede'}
+  - {seq: 1, role: markers, filename: assets/KR6a0103_001.markers.yaml, hash: 'sha256:1c4e4458b4e9bea1043a4a1107ef017f85bcec65aeaa21be4dd240d37b82a9eb'}
 table_of_contents:
 - ref:
     seq: 1
@@ -42,7 +43,4 @@ table_of_contents:
   label: 佛說聖法印經天竺名阿遮曇摩文圖
   type: juan
   level: 1
-hash: sha256:d2e91b3989abb1a888dbcf65bd34fc86e05e1b3b2ce2f79ac916ee1ae1327e6e
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:166183d3c675dd54bd22143aa69b1d02460ee444baede71f99d0d0e5153081f0

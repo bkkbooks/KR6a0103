@@ -22,7 +22,7 @@ assets:
   - {seq: 0, filename: KR6a0103_000-T.yaml, hash: 'sha256:0a854bc124acb02a5dc7ad98fe7492bf5faeea3b68f98b1f9638d22eacc937b2'}
   - {seq: 1, filename: KR6a0103_001-T.yaml, hash: 'sha256:02da91b00023e87535eb378d04d9e4761baeb257e369456669559c9f15778cec'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6a0103_000-T.markers.yaml, hash: 'sha256:878f4f92edaebed585ff56414971f091c77575e313d180071dd7dddb116430b0'}
+  - {seq: 0, role: markers, filename: assets/KR6a0103_000-T.markers.yaml, hash: 'sha256:53e030bcb26cf635fc463186b506f5cfc27ccf5fbf4fe021a03e7031aa9d4c5b'}
   - {seq: 1, role: markers, filename: assets/KR6a0103_001-T.markers.yaml, hash: 'sha256:4b8accad6959120d5b8cc7f416746d3a4b09f54f2f2c5eccb92be768c38f8335'}
 table_of_contents:
 - ref:
@@ -35,4 +35,4 @@ table_of_contents:
   label: 佛說聖法印經天竺名阿遮曇摩文圖
   type: juan
   level: 1
-hash: sha256:8d8224966c41b89f928c98050767dd5bf6f2f1b5999ecffef008fd26124f0061
+hash: sha256:26a9a1887af3740568b9290c379b3da030f5d052bfbb21c84bc2e277c7af8d95
